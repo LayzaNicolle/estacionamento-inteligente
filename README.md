@@ -15,7 +15,6 @@ O sistema processa fluxos de vídeo (de câmeras de segurança ou arquivos grava
 ## 🛠 Tecnologias Utilizadas
 *   **Python**: Linguagem principal do projeto.
 *   **OpenCV**: Manipulação de imagens e processamento de vídeo.
-*   **[Insira aqui sua biblioteca de IA, ex: YOLOv8 / MediaPipe / TensorFlow]**: Modelo utilizado para detecção de objetos.
 *   **NumPy**: Processamento de matrizes e cálculos.
 
 ## 📋 Funcionalidades
