@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.venv311/
+
+# VS Code
+.vscode/
+
+# Datasets and outputs
+imagensdasvvagas/
+basedefotosvagacomcarro/
+basefotovagasemcarro/
+recortes/
+
+# Models and large binaries
+*.keras
+*.h5
+!modelo_vagas.keras
+
+# Images
+*.jpg
+*.jpeg
+*.png
