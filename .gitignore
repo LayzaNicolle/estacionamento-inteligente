@@ -11,18 +11,22 @@ __pycache__/
 # VS Code
 .vscode/
 
-# Datasets and outputs
+# Datasets de trabalho (pastas externas, fora do repo)
 imagensdasvvagas/
 basedefotosvagacomcarro/
 basefotovagasemcarro/
-recortes/
 
 # Models and large binaries
 *.keras
 *.h5
 !modelo_vagas.keras
 
-# Images
-*.jpg
-*.jpeg
-*.png
+# Imagens soltas (apenas na raiz do projeto)
+/*.jpg
+/*.jpeg
+/*.png
+
+# Base de treinamento versionada (excecao as regras acima)
+!data/
+!data/recortes/
+!data/recortes/**
